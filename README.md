@@ -1,24 +1,35 @@
-# Vehicles App 🚗📊
+# 🚗 Vehicles Market Analysis App
 
-Este proyecto es parte del curso de Análisis de Datos.  
-El objetivo es crear una aplicación web interactiva con **Streamlit** para analizar datos de vehículos usados.
+## 📌 Descripción
+Aplicación web interactiva desarrollada con Streamlit para analizar datos de vehículos usados y detectar patrones en precios, año y kilometraje.
 
-## 📌 Propósito
-El proyecto permite:
-- Visualizar un **histograma de precios de vehículos**.
-- Explorar la **relación entre precio y kilometraje (odómetro)** con un gráfico de dispersión.
+## 🎯 Problema
+Entender qué factores influyen en el precio de los vehículos usados para facilitar el análisis del mercado automotriz.
 
-## 🛠️ Tecnologías utilizadas
-- Python 3.10+
-- Pandas
-- Plotly Express
-- Streamlit
+## 📊 Datos
+Dataset de vehículos usados que incluye variables como precio, kilometraje, año, tipo de vehículo y condición.
 
-## ⚙️ Instrucciones de uso
+## ⚙️ Proceso
+- Limpieza y preparación de datos con Pandas  
+- Análisis exploratorio de datos (EDA)  
+- Creación de visualizaciones interactivas con Plotly  
+- Desarrollo de aplicación web con Streamlit  
 
-### 1. Clonar el repositorio
+## 📈 Resultados
+- Se identificó una relación inversa entre precio y kilometraje  
+- Los vehículos más recientes tienden a tener precios más altos  
+- Se detectaron patrones útiles para análisis de mercado  
+
+## 🛠️ Tecnologías
+Python, Pandas, Plotly, Streamlit
+
+## ▶️ Demo
+(Aquí puedes agregar el link de Render si lo subes)
+
+## 💻 Instalación
+
 ```bash
 git clone https://github.com/Antonio9614/vehicles_env.git
 cd vehicles_env
-
-
+pip install -r requirements.txt
+streamlit run app.py
